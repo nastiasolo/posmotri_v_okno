@@ -134,8 +134,8 @@ ol {
 }
 
 .search-form__checkbox-list {
-  display: flex;
   position: relative;
+  display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 13px;
