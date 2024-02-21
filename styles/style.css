@@ -197,7 +197,7 @@ ol {
   block-size: 298px;
 }
 
-.content__list-item:not(:last-child) {
+.content__list-item:not(:last-of-type) {
   margin-bottom: 34px;
 }
 
