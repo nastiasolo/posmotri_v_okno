@@ -55,7 +55,8 @@ ol {
   justify-content: center;
   align-items: end;
   gap: 30px;
-  min-width: 1140px;
+  width: 1140px;
+  height: 534px;
 }
 
 .result__video-container {
@@ -191,12 +192,15 @@ ol {
 
 .content__list {
   position: relative;
-  overflow-y: auto;
-  block-size: 298px;
-  inline-size: 100%;
+  overflow-y: scroll;
+  block-size: 534px;
 }
 
-.content__list-item:not(:last-of-type) {
+.content__list::-webkit-scrollbar {
+  display: none;
+}
+
+.content__list-item {
   margin-bottom: 34px;
 }
 
